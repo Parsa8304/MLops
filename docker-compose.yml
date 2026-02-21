@@ -1,0 +1,13 @@
+services:
+  mlops:
+    build: .
+    container_name: mlops
+    ports:
+      - "5002:5001"
+    volumes:
+      - .:/app
+    environment:
+      - FLASK_ENV=development
+    
+      
+    
