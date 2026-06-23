@@ -1,0 +1,21 @@
+text,label
+hi,greeting
+hello,greeting
+hey there,greeting
+good morning,greeting
+howdy,greeting
+how to reset password,question
+how do I change my email,question
+what are your opening hours,question
+where is my order,question
+can you tell me the price,question
+cancel my subscription,complaint
+this product is broken,complaint
+I want a refund,complaint
+the service was terrible,complaint
+my order never arrived,complaint
+great service,praise
+I love this product,praise
+thank you so much,praise
+this is amazing,praise
+you guys are the best,praise

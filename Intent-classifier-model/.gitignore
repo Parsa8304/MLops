@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Trained model artifacts (regenerate with `python model/train.py`)
+model/artifacts/
+artifacts/
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/

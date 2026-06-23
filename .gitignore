@@ -1,0 +1,36 @@
+# ---- Virtual environments (huge — never commit) ----
+.venv/
+venv/
+env/
+**/.venv/
+**/venv/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- ML / experiment tracking outputs ----
+mlruns/
+mlartifacts/
+**/mlruns/
+# mlflow.db SQLite backend store
+*.db
+artifacts/
+**/artifacts/
+
+# ---- DVC (keep .dvc/config + *.dvc pointers, ignore the cache/data) ----
+.dvc/cache/
+.dvc/tmp/
+**/.dvc/cache/
+**/.dvc/tmp/
+
+# ---- Trained model files ----
+*.pkl
+
+# ---- OS / editor cruft ----
+.DS_Store
+.idea/
+.vscode/
